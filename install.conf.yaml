@@ -1,5 +1,11 @@
-- clean: ['~']
+- defaults:
+    link:
+      create: true
+      relink: true
+
+- clean: ['~', '~/.config']
 
 - link:
-
+    ~/.oh-my-posh: oh-my-posh
+    ~/.bashrc:
 

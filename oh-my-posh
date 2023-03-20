@@ -1,0 +1,2 @@
+POSH_THEME="/home/martin/.poshthemes/martinjt.omp.json"
+eval "$(oh-my-posh init bash --config $POSH_THEME)"
