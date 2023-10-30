@@ -8,5 +8,7 @@
 - link:
     ~/.oh-my-posh: oh-my-posh
     ~/.bashrc:
+      force: true
     ~/.zshrc:
+      force: true
 
