@@ -111,3 +111,7 @@ export PATH=$PATH:/home/linuxbrew/.linuxbrew/bin
 export PATH=$PATH:~/.dotnet/tools
 export DOTNET_PATH=/usr/bin/dotnet
 export DOTNET_ROOT=/usr/share/dotnet
+
+if command -v direnv &> /dev/null; then
+  eval "$(direnv hook zsh)"
+fi

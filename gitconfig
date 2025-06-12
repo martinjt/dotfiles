@@ -1,0 +1,11 @@
+[user]
+        email = github@my2cents.co.uk
+        name = Martin Thwaites
+[core]
+        autocrlf = input
+[init]
+        defaultBranch = main
+[url "git@github.com:"]
+        insteadOf = https://github.com/
+[url "git://"]
+        insteadOf = https://

@@ -11,4 +11,7 @@
       force: true
     ~/.zshrc:
       force: true
-
+    ~/.asdfrc:
+      force: true
+    ~/.gitconfig:
+      force: true
